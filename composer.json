@@ -1,5 +1,5 @@
 {
-    "name": "mailjet/mailjet-apiv3-php",
+    "name": "akki-team/mailjet-apiv3-php",
     "description": "PHP wrapper for the Mailjet API",
     "keywords": ["mailjet", "api", "v3", "php", "email"],
     "homepage": "https://github.com/mailjet/mailjet-apiv3-php/",
@@ -14,12 +14,12 @@
     "require": {
         "php": "^7.2|^8.0",
         "ext-json": "*",
-        "guzzlehttp/guzzle": "^7.4.4",
+        "guzzlehttp/guzzle": "~6.0|~7.0",
+        "mockery/mockery": "^1.4",
         "psr/http-client": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8|^9",
-        "mockery/mockery": "^1.4",
         "php-coveralls/php-coveralls": "^2.0"
     },
     "autoload": {
